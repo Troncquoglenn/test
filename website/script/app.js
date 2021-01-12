@@ -241,7 +241,7 @@
         /*TIMER*/
         
         mqtt = require('mqtt');
-        client  = mqtt.connect("ws://13.81.105.139");
+        client  = mqtt.connect("wss://13.81.105.139");
         
 
         if(html_text_name) setName();
