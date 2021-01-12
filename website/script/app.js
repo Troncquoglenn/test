@@ -311,7 +311,9 @@
 
                 }
             } else if (topic == `${prefix}gamestarted/answer`){
+              
               answer = JSON.parse(message);
+              console.log(answer);
               game_started = answer.gamestarted;
               if(game_started == true){
                 if(window.location.href != 'http://127.0.0.1:5500/website/game.html?') window.location.href='http://127.0.0.1:5500/website/game.html?';
